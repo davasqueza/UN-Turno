@@ -54,5 +54,6 @@
 		}
 
 		loadTurns();
+    loadFilters();
 	}
 })();
