@@ -1,0 +1,14 @@
+﻿<div layout="column" layout-align="center center" layout-align-xs="space-between center" id="background" flex layout-fill>
+	<h1 class="title">UN Turno</h1>
+	<div layout="row">
+		<md-input-container class="md-icon-float">
+			<label class="input-white">Buscar turno</label>
+			<md-icon md-svg-src="/assets/svg/search.svg" class="search"></md-icon>
+			<input class="input-white" ng-model="vm.searchTittle" type="text"/>
+		</md-input-container>
+		<md-button ng-click="vm.searchByTittle()">Buscar</md-button>
+	</div>
+	<div layout="row" layout-xs="column">
+		<md-button ng-click="vm.offersView()">Ver todos los turnos</md-button>
+	</div>
+</div>

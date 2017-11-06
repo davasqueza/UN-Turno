@@ -1,0 +1,199 @@
+@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,700italic,400italic);
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../bower_components/material-design-iconfont/iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(../../bower_components/material-design-iconfont/iconfont/MaterialIcons-Regular.woff2) format('woff2'),
+       url(../../bower_components/material-design-iconfont/iconfont/MaterialIcons-Regular.woff) format('woff'),
+       url(../../bower_components/material-design-iconfont/iconfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+html {
+  font-family: 'Roboto Slab', serif;
+  height: 100%;
+}
+
+md-content.md-default-theme {
+  background-color: #eee;
+}
+
+#logo {
+  min-width: 150px;
+  max-width: 25%;
+}
+
+.image {
+  width: 100%;
+}
+
+#background {
+  background-image: url("../assets/images/main.jpg");
+  color: white;
+  position: absolute;
+  min-height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+#contenido{
+  color: white;
+}
+
+.inLine {
+  display: inline-flex;
+  font-size: 0.5em;
+}
+
+.main {
+  background-color: white !important;
+}
+
+.center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#google_plus {
+  color: white;
+  width: 50px;
+  height: 50px;
+  background-color: #DB4437;
+}
+
+#twitter {
+  color: white;
+  width: 50px;
+  height: 50px;
+  background-color: #1DA1F2;
+}
+
+#facebook {
+  color: white;
+  width: 50px;
+  height: 50px;
+  background-color: #45619D;
+}
+
+#linkedin {
+  color: white;
+  width: 50px;
+  height: 50px;
+  background-color: #1884BB;
+}
+
+.user-avatar {
+    border-radius: 99%;
+}
+@media (max-width: 600px) {
+	.user-avatar {
+		border-radius: 99%;
+		width: 64px;
+		height: 64px;
+	}
+}
+
+.fab-border {
+	bottom: -33px !important;
+}
+
+.md-xl {
+	height: 200px;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.input-overlay {
+	position: absolute;
+    left: 39px;
+    top: 20px;
+	z-index: 10;
+}
+
+@media (max-width: 600px) {
+	.angular-google-map-container {
+		height: 256px;
+		width: 256px;
+	}
+}
+@media (min-width: 600px) {
+	.angular-google-map-container {
+		height: 465px;
+		width: 465px;
+	}
+}
+
+.animate-repeat.ng-move,
+.animate-repeat.ng-enter,
+.animate-repeat.ng-leave {
+	-webkit-transition: 400ms cubic-bezier(0.250, 0.100, 0.250, 1.000) all;
+	-moz-transition: 400ms cubic-bezier(0.250, 0.100, 0.250, 1.000) all;
+	-ms-transition: 400ms cubic-bezier(0.250, 0.100, 0.250, 1.000) all;
+	-o-transition: 400ms cubic-bezier(0.250, 0.100, 0.250, 1.000) all;
+	transition: 400ms cubic-bezier(0.250, 0.100, 0.250, 1.000) all;
+	display: block;
+	overflow: hidden;
+}
+
+.animate-repeat.ng-leave.ng-leave-active,
+.animate-repeat.ng-move,
+.animate-repeat.ng-enter {
+	opacity: 0;
+	width: 0px;
+	height: 0px;
+}
+
+.animate-repeat.ng-leave,
+.animate-repeat.ng-move.ng-move-active,
+.animate-repeat.ng-enter.ng-enter-active {
+	opacity: 1;
+	width: inherit;
+	height: inherit;
+}
+
+.input-white {
+	border-color: white !important;
+	color: white !important;
+}
+.md-fab {
+	position: fixed !important;
+}
+
+.title {
+	font-size: 5em;
+}
+
+@media (max-width: 600px) {
+	.title {
+		font-size: 3em;
+	}
+}
